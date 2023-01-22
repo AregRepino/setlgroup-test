@@ -11,7 +11,7 @@ public class Main {
         diamond.setHeight(scanner.nextInt());
         System.out.println("Введите ширину от 1 до 80");
         diamond.setWidth(scanner.nextInt());
-        diamond.print(diamond.getHeight(),diamond.getWidth());
+        diamond.print(diamond.getHeight(), diamond.getWidth());
     }
 }
 

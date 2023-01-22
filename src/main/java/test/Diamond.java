@@ -5,7 +5,7 @@ public class Diamond {
     private int height;
     private int width;
 
-    public  void print(int height, int width) {
+    public void print(int height, int width) {
         int middleHeight = height / 2;
         int middleWidth = width / 2;
         int increment = Math.round((float) width / height);
@@ -26,7 +26,7 @@ public class Diamond {
                 if (leftMargin < 1) {
                     leftMargin = 1;
                 }
-                rightMargin = width - leftMargin - ( leftMargin - Math.abs(increment));
+                rightMargin = width - leftMargin - ( leftMargin - Math.abs(increment) );
                 if (rightMargin < 1) {
                     rightMargin = Math.abs(increment);
                 }
