@@ -1,4 +1,0 @@
-test/Main.java
- test.Main
-test/Diamond.java
- test.Diamond
